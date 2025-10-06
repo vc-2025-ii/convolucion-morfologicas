@@ -23,7 +23,7 @@ El objetivo de esta tarea es comprender y aplicar los conceptos de **convolució
 ### Ejercicio 1: Implementación de la convolución
 
 1. Implementa una función `convolve_manual(image, kernel)` en `utils.py` que aplique una convolución a una imagen en escala de grises, usando únicamente `numpy` y ciclos `for`.
-2. Prueba tu función con al menos los siguientes kernels:
+2. Prueba tu función con al menos cinco kernels. Entre ellos debe estar:
    * Filtro de suavizado promedio ( 3 \times 3 )
    * Detección de bordes verticales (ej. Sobel vertical)
    * Detección de bordes horizontales (ej. Sobel horizontal)
